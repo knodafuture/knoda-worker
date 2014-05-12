@@ -10,16 +10,8 @@
 
 	}
 
-	.avatar {
-		height: 107px;
-		width: 107px;
-		display: block;
-    	margin: 0 auto;
-    	clear: right;
-	}
-
 	.date {
-		font-size: 22px;
+		font-size: 24px;
 		font-family: 'open_sanslight';
 		font-weight: 300;
 		color: #77BC1F;
@@ -30,14 +22,25 @@
 	.background {
 		width: 100%;
 		height: 100%;
+		position: relative;
 	}
 
 	h3 {
-		font-size: 28px;
-		line-height: 38px;
+		font-size: 38px;
+		line-height: 45px;
 		font-family: 'open_sanslight';
 		font-weight: 300;
-		margin: 5px 10 15px 10;
+		margin: 5px 20 5px 20;
+		color: #FFFFFF;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 24px;
+		line-height: 24px;
+		font-family: 'open_sanslight';
+		font-weight: 300;
+		margin: 5px 10 0px 10;
 		color: #FFFFFF;
 		text-align: center;
 	}
@@ -53,10 +56,18 @@
 		vertical-align: middle;
 	}
 
+	.bottom {
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		right: 0;
+	}
+
 	body {
 		width: 640px;
 		height: 640px;
 		margin: 0;
+		background: #235C37;
 	}
 </style>
 </head>
@@ -64,11 +75,12 @@
 <div class="background" style="background-image: url('<%=asset_url "prediction_backgrounds/#{prediction.background_image()}"%>');">
 		<div class="wrapper">
 			<div class="cell">
-        <%= image_tag(prediction.user.avatar(:small), {:class => 'avatar'}) %>
-				<h3> <%=prediction.user.username%></h3>
-				<p class="date"> <%=prediction.created_at.strftime("%B %d, %Y")%></p>
 				<h3>"<%=prediction.body%>"</h3>
 			</div>
+		</div>
+		<div class="bottom">
+			<h2> <%=prediction.user.username%></h2>
+			<p class="date"> <%=prediction.created_at.strftime("%B %d, %Y")%></p>
 		</div>
 	</div>
 </body>
