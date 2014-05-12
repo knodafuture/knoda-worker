@@ -19,7 +19,7 @@
 	}
 
 	.date {
-		font-size: 18px;
+		font-size: 22px;
 		font-family: 'open_sanslight';
 		font-weight: 300;
 		color: #77BC1F;
@@ -65,9 +65,9 @@
 		<div class="wrapper">
 			<div class="cell">
         <%= image_tag(prediction.user.avatar(:small), {:class => 'avatar'}) %>
-				<p class="date"> <%=prediction.user.username%></p>
+				<h3> <%=prediction.user.username%></h3>
 				<p class="date"> <%=prediction.created_at.strftime("%B %d, %Y")%></p>
-				<h3>"<%=prediction.body%></h3>
+				<h3>"<%=prediction.body%>""</h3>
 			</div>
 		</div>
 	</div>
