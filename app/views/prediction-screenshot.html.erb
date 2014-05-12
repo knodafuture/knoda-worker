@@ -65,6 +65,7 @@
 		<div class="wrapper">
 			<div class="cell">
         <%= image_tag(prediction.user.avatar(:small), {:class => 'avatar'}) %>
+				<p class="date"> <%=prediction.user.username%></p>
 				<p class="date"> <%=prediction.created_at.strftime("%B %d, %Y")%></p>
 				<h3>"<%=prediction.body%></h3>
 			</div>
