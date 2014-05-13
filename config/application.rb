@@ -8,5 +8,6 @@ module KnodaWorker
     config.twitter_key = "14fSb3CT7EEQkoryO8RNx7BrG"
     config.twitter_secret = "6Z5OGzxLL9NqVEpAbLs9FFd2PyLm6pd7j5r98IZr5e0HRr73bo"
     config.asset_host = ENV['ASSET_HOST']
+    config.knoda_web_url = ENV['KNODA_WEB_URL'] || 'http://www.knoda.com'
   end
 end
