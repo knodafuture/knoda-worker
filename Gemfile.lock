@@ -1,6 +1,6 @@
 GIT
   remote: https://knoda-build:Xtra5efeKn0dafuture@github.com/knodafuture/knoda_core.git
-  revision: 3b29a47d095bade44884532536153f66aae9be38
+  revision: 2ee00c211ff51aec3b8cd0231c73fde1992c5573
   branch: master
   specs:
     knoda_core (0.0.1)
@@ -139,8 +139,8 @@ GEM
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     naught (1.0.0)
-    nokogiri (1.6.1)
-      mini_portile (~> 0.5.0)
+    nokogiri (1.6.2)
+      mini_portile (~> 0.5.2)
     oauth (0.4.7)
     omniauth (1.2.1)
       hashie (>= 1.2, < 3)
