@@ -1,4 +1,8 @@
-# This file is used by Rack-based servers to start the application.
+require 'sidekiq'
 
-require ::File.expand_path('../config/environment',  __FILE__)
-run Rails.application
+Sidekiq.configure_client do |config|
+  config.redis = { :size => 1, :namespace => 'sidekiq-knoda' }
+end
+
+require 'sidekiq/web'
+run Sidekiq::Web
