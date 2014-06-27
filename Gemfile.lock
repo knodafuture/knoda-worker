@@ -1,6 +1,6 @@
 GIT
   remote: https://knoda-build:Xtra5efeKn0dafuture@github.com/knodafuture/knoda_core.git
-  revision: eaf9cc1dfa1516f785dc928f6b8462ae5cd2632f
+  revision: 6ce77d29270e2fdadb0d88e4586523a74ced809a
   branch: master
   specs:
     knoda_core (0.0.1)
@@ -122,7 +122,7 @@ GEM
     mailchimp-api (2.0.5)
       excon (>= 0.16.0)
       json (>= 1.7.7)
-    mandrill-api (1.0.51)
+    mandrill-api (1.0.52)
       excon (>= 0.16.0, < 1.0)
       json (>= 1.7.7, < 2.0)
     mandrill_mailer (0.4.6)
