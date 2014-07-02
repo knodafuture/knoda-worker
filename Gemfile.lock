@@ -1,6 +1,6 @@
 GIT
   remote: https://knoda-build:Xtra5efeKn0dafuture@github.com/knodafuture/knoda_core.git
-  revision: 6ce77d29270e2fdadb0d88e4586523a74ced809a
+  revision: 9e0ea00a745662e7d1c9486b74754c377f4e0417
   branch: master
   specs:
     knoda_core (0.0.1)
@@ -65,6 +65,7 @@ GEM
     builder (3.2.2)
     celluloid (0.15.2)
       timers (~> 1.1.0)
+    chronic (0.10.2)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.4)
@@ -195,7 +196,7 @@ GEM
       redis (~> 3.0, >= 3.0.4)
     render_anywhere (0.0.8)
       rails (>= 3.0.7)
-    searchkick (0.7.8)
+    searchkick (0.7.9)
       activemodel
       elasticsearch (~> 0.4.11)
       hashie
@@ -255,6 +256,9 @@ GEM
       tzinfo
     warden (1.2.3)
       rack (>= 1.0)
+    whenever (0.9.2)
+      activesupport (>= 2.3.4)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby
@@ -285,3 +289,4 @@ DEPENDENCIES
   twitter
   unicorn
   versioncake (= 2.4)
+  whenever
