@@ -1,6 +1,6 @@
 GIT
   remote: https://knoda-build:Xtra5efeKn0dafuture@github.com/knodafuture/knoda_core.git
-  revision: 17b3556d70c4bc2158e3c2ecc36a206201ef3793
+  revision: b473efe280eacd12021e307e45515077c99a26a6
   branch: master
   specs:
     knoda_core (0.0.1)
@@ -227,7 +227,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    twilio-ruby (3.11.5)
+    twilio-ruby (3.11.6)
       builder (>= 2.1.2)
       jwt (>= 0.1.2)
       multi_json (>= 1.3.0)
