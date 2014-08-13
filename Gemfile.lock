@@ -1,6 +1,6 @@
 GIT
   remote: https://knoda-build:Xtra5efeKn0dafuture@github.com/knodafuture/knoda_core.git
-  revision: b473efe280eacd12021e307e45515077c99a26a6
+  revision: 95d5f9d5cb2f85774d3bcf36491249e677bf7072
   branch: master
   specs:
     knoda_core (0.0.1)
@@ -87,7 +87,7 @@ GEM
       multi_json
     equalizer (0.0.9)
     erubis (2.7.0)
-    excon (0.38.0)
+    excon (0.39.4)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     gcm (0.0.7)
@@ -99,7 +99,7 @@ GEM
     grocer (0.5.0)
     hashie (3.2.0)
     hike (1.2.3)
-    http (0.6.1)
+    http (0.6.2)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
     httparty (0.13.1)
@@ -192,7 +192,7 @@ GEM
     raindrops (0.13.0)
     rake (10.3.2)
     redis (3.1.0)
-    redis-namespace (1.5.0)
+    redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
     render_anywhere (0.0.8)
       rails (>= 3.0.7)
@@ -242,13 +242,13 @@ GEM
       memoizable (~> 0.4.0)
       naught (~> 1.0)
       simple_oauth (~> 0.2.0)
-    tzinfo (1.2.1)
+    tzinfo (1.2.2)
       thread_safe (~> 0.1)
     unicorn (4.8.3)
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
-    uuidtools (2.1.4)
+    uuidtools (2.1.5)
     versioncake (2.4.0)
       actionpack (>= 3.2)
       activesupport (>= 3.2)
