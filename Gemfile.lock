@@ -1,6 +1,6 @@
 GIT
   remote: https://knoda-build:Xtra5efeKn0dafuture@github.com/knodafuture/knoda_core.git
-  revision: 8a72fc9bdb42fdde5448264d3250b3d3f47c9134
+  revision: f7db2841094f59ba4736c1f2b01f0cce7af61209
   branch: social
   specs:
     knoda_core (0.0.1)
@@ -97,7 +97,7 @@ GEM
       httparty
       multi_json (>= 1.3.4)
     grocer (0.5.0)
-    hashie (3.2.0)
+    hashie (3.3.0)
     hike (1.2.3)
     http (0.6.2)
       http_parser.rb (~> 0.6.0)
@@ -227,7 +227,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    twilio-ruby (3.12.0)
+    twilio-ruby (3.12.1)
       builder (>= 2.1.2)
       jwt (~> 1.0.0)
       multi_json (>= 1.3.0)
