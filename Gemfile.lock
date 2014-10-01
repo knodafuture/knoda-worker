@@ -1,7 +1,7 @@
 GIT
   remote: https://knoda-build:Xtra5efeKn0dafuture@github.com/knodafuture/knoda_core.git
-  revision: b4b504030eab7b4c4569cff58397e800f94a3c85
-  branch: develop
+  revision: fbd117e74f81b34c853de3aeb048d418bd142ca0
+  branch: master
   specs:
     knoda_core (0.0.1)
       authority (= 2.10.0)
@@ -126,7 +126,7 @@ GEM
     mandrill-api (1.0.52)
       excon (>= 0.16.0, < 1.0)
       json (>= 1.7.7, < 2.0)
-    mandrill_mailer (0.4.8)
+    mandrill_mailer (0.4.9)
       actionpack
       activesupport
       mandrill-api (~> 1.0.9)
