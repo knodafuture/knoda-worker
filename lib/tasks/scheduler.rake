@@ -8,5 +8,6 @@ namespace :scheduler do
     Recurring::NotifyExpiredPredictions.perform_in(4.minutes)
     Recurring::NotifyExpiredPredictions.perform_in(6.minutes)
     Recurring::NotifyExpiredPredictions.perform_in(8.minutes)
+    Recurring::KnodaWorkerMonitor.perform_async
   end
 end
